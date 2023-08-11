@@ -57,9 +57,9 @@ library.add(faCircleExclamation)
 
 <div class="flex h-36 w-full rounded-lg bg-white p-4 shadow-md">
   <div>
-    <h2 class="mb-2 text-xl font-semibold">City Name</h2>
+    <h2 class="mb-2 text-xl font-semibold">Salesforce Users</h2>
     <div class="flex">
-      <font-awesome-icon  :icon="faUserTag"  class="fa-solid fa-user mt-5 h-12" style="color: #1e6ecc;"/>
+
       <p class="mt-4 text-right">
         <span class="ml-6 font-bold text-5xl text-blue-500">126</span>
       </p>
@@ -70,7 +70,7 @@ library.add(faCircleExclamation)
 <div></div>
 <div class="flex h-36 w-full rounded-lg bg-white p-4 shadow-md">
   <div>
-    <h2 class="mb-2 text-xl font-semibold">City Name</h2>
+    <h2 class="mb-2 text-xl font-semibold">Total Invites</h2>
     <div class="flex">
       <font-awesome-icon  :icon="faUserGroup"  class="fa-solid fa-user mt-5 h-12" style="color: #ffb800;"/>
       <p class="mt-4 text-right">
@@ -81,7 +81,7 @@ library.add(faCircleExclamation)
 </div>
 <div class="flex h-36 w-full rounded-lg bg-white p-4 shadow-md">
   <div>
-    <h2 class="mb-2 text-xl font-semibold">City Name</h2>
+    <h2 class="mb-2 text-xl font-semibold">Arrived</h2>
     <div class="flex">
       <font-awesome-icon  :icon="faUserCheck"  class="fa-solid fa-user mt-5 h-12" style="color: #42ae00;"/>
       <p class="mt-4 text-right">
@@ -90,12 +90,12 @@ library.add(faCircleExclamation)
     </div>
   </div>
 </div>
-<div class="flex h-36 w-full rounded-lg bg-white p-4 shadow-md">
+<button class="flex h-36 w-full rounded-lg bg-white p-4 shadow-md">
   <div class="mx-auto">
       <font-awesome-icon  :icon="faCamera"  class="fa-solid fa-user mx-auto mt-5 h-12" style="color: #1e6ecc;"/>
     <h2 class="mb-2 text-md font-semibold">Scan a Registree</h2>
   </div>
-</div>
+</button>
 </div>
 </div>
 <hr class="mt-5 w-3/4 mx-auto shadow" />
